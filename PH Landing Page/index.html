@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+    <title>PH - Landing Page</title>
+    <script src="https://kit.fontawesome.com/cf0e20fa4f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        
+            <nav class="navbar">
+                <img src="Logo.png" width="80">
+
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        
+        <div class="container">
+            <div class="header-text">
+                <h1>
+                    <span><i class="fa-brands fa-servicestack fa-flip-horizontal"></i> PH <i
+                            class="fa-brands fa-servicestack"></i></span> <br />Services
+                </h1>
+                <p>Providing Services in IT Field</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Software Development</h2>
+                    <p>
+                        IT services can often include software development processes to create custom applications that
+                        fulfill specific business needs. For example, a startup business may rely on its IT service team
+                        to create a software application for organizing and maintaining venture capitalist records.
+                    </p>
+                    <a href="#services" onclick="learn()">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud Services</h2>
+                    <p>
+                        Cloud services provide many ways for business team members to interact with the technology they
+                        need. The cloud is an internet-connected platform that can store and access information and
+                        programs. Since the cloud stores the information instead of holding it on a computer, team
+                        members can access and use it whether at home or in the office.
+                    </p>
+                    <a href="#services" onclick="learn()">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Hardware Installations and Maintenance</h2>
+                    <p>
+                        Many business IT services also include hardware installations, maintenance and repairs. For
+                        instance, a corporate IT department is often responsible for installing the computers, hard
+                        drives, printers, modems and routers that the company needs to operate. IT teams also evaluate a
+                        business's processes to determine the types of hardware that support its needs.
+                    </p>
+                    <a href="#services" onclick="learn()">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Network Security</h2>
+                    <p>
+                        Network security services help protect a business' network from unauthorized access. IT services
+                        can create and issue access authorization to those who need it. They also provide many other
+                        services to protect your network, including Building firewalls, Installing anti-virus
+                        software,Installing virtual private networks (VPNs), Performing regular network checkups
+                    </p>
+                    <a href="#services" onclick="learn()">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chalkboard"></i>
+                    <h2>IT Training</h2>
+                    <p>
+                        Since technology and software can change often, helping your team learn how to operate updated
+                        devices and software can help them use those tools efficiently with minimal questions. Many IT
+                        services include technology training for business teams that use technical tools and resources
+                        for everyday operations. In these cases, an IT team can train staff in your company on how to
+                        use specific tools, programs and applications.
+                    </p>
+                    <a href="#services" onclick="learn()">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-headphones"></i>
+                    <h2>Troubleshooting and technical support</h2>
+                    <p>
+                        IT services for many organizations also include technical support and troubleshooting for
+                        software applications, programs and online tools. Teams that offer these services often guide
+                        users through the process of resolving technical errors or recommend further steps to take, such
+                        as sending in the device for repairs.
+                    </p>
+                    <a href="#services" onclick="learn()">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>huvez8113@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9346884729</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/huvez_ahmed_munna/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/huvez.ahmed"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/huvez8113"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/huvezahmedmunna8113/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Huvez8113"><i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required />
+                        <input type="email" name="Email" placeholder="Enter Your Email" required />
+                        <input type="text" pattern="[9876][0-9]{9}" name="Mobile" placeholder="Enter Your Mobile Number"
+                            required />
+                        <textarea name="Message" rows="6" placeholder="Enter Your Views"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright © PH made with <i class="fa-solid fa-heart"></i> by Huvez
+                Ahmed Munna
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
